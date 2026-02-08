@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>На валентин💗)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <div class="container">
+            <label>
+            <div class="heart1">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Love_Heart_SVG.svg"></img>
+            </div>
+            <input id="messageState" type="checkbox" style="display:none"/>
+            </label>
+            <div class="message">
+                <h1 style="font-family: Cinzel, serif; font-size: 40px; letter-spacing: 1.2px;">Dear Crush,</h1>
+                <p> 
+                    <span>
+                        &emsp; I've been keeping this in for a while, but I think Valentine's Day is the perfect time to say it—you’re the reason my days feel brighter. Every little moment with you means more than I can put into words. Your smile, your laughter, the way you make everything feel lighter—it all makes my heart race in the best way possible.
+                    </span>
+                    <br> <br>
+                    <span>
+                        &emsp;  So, here it is… I like you, a lot. Maybe even love. Would you be my Valentine? No matter your answer, I just wanted you to know how special you are to me. You’ve filled my heart with warmth in ways I never expected, and for that, I’m grateful. But if you say yes, I promise to make every day feel like Valentine’s Day for you—to cherish you, to make you smile, and to remind you just how much you mean to me.
+                    </span>      
+                </p>
+                <br>
+                <div class="sincere">
+                    <p style="font-weight: bold;"> With Love,</p>
+                    <p>Your Admire</p>
+                 </div>
+            </div>
+        </div>
+    <div class="scroll-wrapper">
+        <div class="scroll">
+            <div class="scroll-seal">💗</div>
+
+            <div class="scroll-content">
+                <p>
+                <!-- ТЕКСТ ТУТ -->
+                Ну жастин.<br>
+                как тебе это 💌
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+      <canvas id="testCanvas" width="550" height="500"></canvas>
+    </div>
+    <!--Окошко для начала-->
+    <div id="modal1" class="modal1  ">
+        <div class="valentine-box1">
+            <div class="scene1">
+            <svg class="heart-frame" viewBox="0 0 200 180">
+                <path d="M90 27 C90 0 0 0 0 60 C0 112.5 90 165 90 165 C90 165 180 112.5 180 60 C180 0 90 0 90 27 Z" />
+            </svg>
+        </div>
+
+            <h2>Ты будешь моей валентинкой? 💗</h2>
+            <button id="agree" class="agree">Конечно🥰</button>
+            <button id="disagree" class="disagree">Отказываюсь😒</button>
+        </div>
+    </div>
+    <div id="modal2" class="modal2">
+            <div class="valentine-box2">
+            <div class="scene2">
+                <svg class="heart-frame2" viewBox="0 0 200 180">
+                    <path d="M90 27 C90 0 0 0 0 60 C0 112.5 90 165 90 165 C90 165 180 112.5 180 60 C180 0 90 0 90 27 Z" />
+                </svg>
+            </div>
+
+                <h2>Урааа!!! Я так рад☺️<br>Теперь вводи своё имя ниже</h2>
+                <input type="text" id="username" placeholder="Сюда...">
+                <button id="startBtn" class="lessgo">Поехали😁</button>
+        </div>
+    </div>
+    <div id="modal3" class="modal3">
+            <div class="valentine-box3">
+            <div class="scene3">
+                <svg class="heart-frame3" viewBox="0 0 200 180">
+                    <path d="M90 27 C90 0 0 0 0 60 C0 112.5 90 165 90 165 C90 165 180 112.5 180 60 C180 0 90 0 90 27 Z" />
+                </svg>
+            </div>
+
+                <h2>Отказ Миледи моя не принимается😁💗<br>Так что вводи своё имя ниже</h2>
+                <input type="text" id="username1" placeholder="Сюда...">
+                <button id="startBtn1" class="lessgo">Поехали😁</button>
+        </div>
+    </div>
+    <div class="scene">
+        <svg class="heart" viewBox="0 0 600 552">
+            <path d="M300,107.77C284.68,55.67,239.76,0,162.31,0C64.83,0,0,82.08,0,171.71C0,350,300,550,300,550C300,550,600,350,600,171.71C600,82.08,535.17,0,437.69,0C360.24,0,315.32,55.67,300,107.77Z"/>
+        </svg>
+     <div class="name"></div>
+    </div>
+
+    
+    <script src="https://code.createjs.com/1.0.0/easeljs.min.js" ></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1524180/codepen-template-1.0.js" ></script>
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+    integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+    crossorigin="anonymous" ></script>
+    <script src="./script.js" defer></script>
+</body>
+</html>
