@@ -1,4 +1,3 @@
-alert("JS работает");
 const windowstart = document.getElementById("modal1");
 const windowag = document.getElementById("modal2");
 const windowdis = document.getElementById("modal3");
@@ -178,4 +177,5 @@ $(".heart1").on('webkitAnimationEnd oanimationend msAnimationEnd animationend', 
 	else
 		$(".heart1").addClass("no-anim").removeClass("beating");
 	$(".heart1").removeClass("openHer").removeClass("closeHer");
+
 });
